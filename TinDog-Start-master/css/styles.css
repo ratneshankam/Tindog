@@ -1,0 +1,178 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    
+}
+
+p {
+    color: #8f8f8f;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight:800;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight:600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-weight: lighter;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-img {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/* features area */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1;; */
+}
+
+.features_div {
+    padding: 4.5%;
+    text-align: center;
+}
+
+.ficon {
+    /* text-align: center; */
+    font-size: 3rem;
+    margin: 1rem;
+    color: #ef8172;
+}
+
+.ficon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    /* padding: 7% 15%; */
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding:3% 2%;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+.bottom {
+    color: #fff;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    /* margin: 80px; */
+    /* padding-bottom: 50px; */
+}
+
+.download-button-bottom {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#footer {
+    font-weight: 500;
+    padding: 8%;
+    text-align: center;
+}
+
+#footer p {
+    margin-top: 1%;
+}
+.social {
+    margin: 1%;
+}
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        width:50%;
+        position: static;
+        transform: rotate(0);
+    }
+}
